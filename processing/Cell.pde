@@ -1,9 +1,3 @@
-/*
- * There are two places to write code in the Cell tab:
- *   updateAlive()
- *   calculateNeighbors()
- */
-
 class Cell {
   // instance fields
   public int col;
