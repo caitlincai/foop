@@ -1,21 +1,4 @@
-/*
- * Created by JP (c. ????)
- * Edited by MB, JH, TK
- * Updated 04/29/21 by TK
- * Adapted 05/01/23 to Coding Rooms by TK
- * Edits:
- *   05/09/23 - Added instructions atop the CGoL and Cell tabs
- */
-
- /*
-  * There is one place to write code in the CGoL tab:
-  *   draw() [four parts]
-  *
-  * The "final test" is located in the setUpCells() method at
-  * the bottom of this tab.
-  */
-
-// Here are some useful "constants"
+// some useful "constants"
 final int ROWS = 40;
 final int COLS = 60;
 final int CELL_WIDTH = 15;
