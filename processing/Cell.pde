@@ -30,7 +30,6 @@ class Cell {
   // Set this cell to alive or dead based on current state
   // of amAlive and the number of live neighbors
   public void updateAlive() {
-    // to solve this without using if/else
     if ((isAlive() && (neighbors == 2 || neighbors == 3)) || (isAlive() == false && neighbors == 3)) {
         setAlive(true);
     }
@@ -44,7 +43,6 @@ class Cell {
   // and return that number
   public int calcNeighbors() {
       this.neighbors = 0;
-    //YOUR CODE HERE
 
     for(int r = row - 1; r <= row + 1 ; r++){
 
