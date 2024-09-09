@@ -1,4 +1,3 @@
-// GENERAL NOTES
 // The purpose of using mousePressed() and mouseReleased() instead of
 // mouseClicked() is to adhere to the idea that confirmation of a clicked
 // button should include a release over the button as well. This is fairly
