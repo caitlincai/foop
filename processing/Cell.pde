@@ -30,8 +30,6 @@ class Cell {
   // Set this cell to alive or dead based on current state
   // of amAlive and the number of live neighbors
   public void updateAlive() {
-    // Try to figure out an expression using Boolean operator(s) such
-    // as && and || along with neighbor count and current alive/dead state
     // to solve this without using if/else
     if ((isAlive() && (neighbors == 2 || neighbors == 3)) || (isAlive() == false && neighbors == 3)) {
         setAlive(true);
