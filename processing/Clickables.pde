@@ -1,8 +1,7 @@
 // The purpose of using mousePressed() and mouseReleased() instead of
 // mouseClicked() is to adhere to the idea that confirmation of a clicked
-// button should include a release over the button as well. This is fairly
-// standard in the behavior of SUBMIT buttons in web browsers.
-//
+// button should include a release over the button as well.
+
 // The strategy for handling button events is to gather information about
 // where a mouse was pressed and released and only if the two align is a
 // button action actually taken.
