@@ -430,22 +430,17 @@
 ; Special testing code for a royal flush
 ;(let [(hand (sort (car rf)))]
   ; NOTE: Each of the following five lines is designed to work
-  ;       independently.  Uncomment these lines ONE-at-a-time.
+  ;       independently. 
   ; (append '(royal flush test hand is) (list hand)))
   ; (cons hand (append '(is) (if (straight? hand) '() '(not)) '(a straight))))
   ; (cons hand (append '(is) (if (flush? hand) '() '(not)) '(a flush))))
 ; (cons hand (append '(is) (if (straight-flush? hand) '() '(not)) '(a straight flush))))
 ; (cons hand (append '(is) (if (royal-flush? hand) '() '(not)) '(a royal flush))))
-; NOTE: Once all five tests have passed, comment all Special
-;       testing code for a royal flush and proceed to the
-;       last line below.
 
 ; test takes in a hand and a description as a list, and returns
 ;      a list of the form
 ;      '(hand #t) when the hand and description match, and
 ;      '(hand [error] #f) when the hand and description do not match.
-; NOTE: The actual sentence describing the hand MUST match what
-;       you chose to use in your code.
 
 (define (test testhand)
   (let* [(hand (car testhand))
@@ -476,6 +471,4 @@
         (list tests 'FAIL))))
 
 ; THIS INVOCATION CONTROLS ALL TESTS
-; NOTE: Uncomment this ONLY when you are done testing for
-;       a royal flush above.
 (test-results)
