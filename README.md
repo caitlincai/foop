@@ -1,4 +1,5 @@
-# FOOP (functional and object oriented programming) 2023-24 frosh yr
+# FOOP (functional and object oriented programming) 
+2023-24 frosh yr
 
 **scheme**: includes 2 projects from semester 1 written in scheme, bridge and poker hands
 
