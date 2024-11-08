@@ -1,5 +1,4 @@
-# FOOP
-this contains my projects from my functional and object oriented programming (FOOP) class 2023-2024 freshman year!
+# FOOP (functional and object oriented programming) 2023-24 frosh yr
 
 **scheme**: includes 2 projects from semester 1 written in scheme, bridge and poker hands
 
